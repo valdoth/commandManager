@@ -1,7 +1,8 @@
-#include "CommandManager.h"
 #include <iostream>
 #include <thread>
 #include <chrono>
+
+#include "../include/CommandManager.h"
 
 std::shared_ptr<CommandManager> CommandManager::getInstance() {
     static std::shared_ptr<CommandManager> instance(new CommandManager());

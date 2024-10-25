@@ -1,8 +1,9 @@
-#include "MoveCommand.h"
-#include "UpdateInventoryCommand.h"
-#include "SensorMonitorCommand.h"
 #include <memory>
 #include <vector>
+
+#include "../include/MoveCommand.h"
+#include "../include/UpdateInventoryCommand.h"
+#include "../include/SensorMonitorCommand.h"
 
 int main() {
     std::vector<std::unique_ptr<Command>> commands;

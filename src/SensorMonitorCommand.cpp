@@ -1,5 +1,6 @@
-#include "SensorMonitorCommand.h"
 #include <iostream>
+
+#include "../include/SensorMonitorCommand.h"
 
 void SensorMonitorCommand::execute() const {
     std::cout << "Monitoring Sensors..." << std::endl;

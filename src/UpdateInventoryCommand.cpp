@@ -1,5 +1,6 @@
-#include "UpdateInventoryCommand.h"
 #include <iostream>
+
+#include "../include/UpdateInventoryCommand.h"
 
 void UpdateInventoryCommand::execute() const {
     std::cout << "Updating Inventory..." << std::endl;
